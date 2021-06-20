@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+
+        <!-- My CSS -->
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/media-query.css" />
+
+        <!-- Icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+
+        <!-- magnific popup -->
+        <link rel="stylesheet" href="css/magnific-popup.css" />
+
+        <!-- AOS -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+        <title>My Portfolio</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+            <div class="container main-menu">
+                <a class="navbar-brand" href="#"> <span class="code">&lt;</span> Navbar <span class="code">&#47;&gt; </span> </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link scroll" href="#welcome-section">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scroll" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scroll" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end nav -->
+        <!-- about section start-->
+        <section id="welcome-section">
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <img src="assets/img/4.jpg" alt="profile image" class="img-thumbnail rounded-circle profile-img" width="200" />
+                    <h1 class="display-4">Nurcholis Aulia Rachman</h1>
+                    <p class="lead">Web Developer</p>
+                    <div class="social-link">
+                        <ul>
+                            <li>
+                                <a href="https://github.com/NurcholisAR" id="profile-link" target="_blank" title="github" class="github"><i class="fa fa-github"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/nurcholis-aulia-rachman-02a007143" id="profile-link" target="_blank" class="linkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.freecodecamp.org/nurcholis_aulia_rachman" id="profile-link" target="_blank" title="FreeCodeCamp" class="fcc"> <i class="fa fa-free-code-camp"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://codepen.io/NurcholisAr" target="_blank" id="profile-link" title="Codepen" class="codepen"><i class="fa fa-codepen"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </section>
+
+        <!-- Akhir about section -->
+
+        <!-- Start project section -->
+        <section id="projects" class="project-section">
+            <div class="container">
+                <div class="row">
+                    <div class="d-flex">
+                        <hr class="flex-grow-1" />
+                        <h2 class="px-4 section-title">These are some of <span> my projects</span></h2>
+                        <hr class="flex-grow-1" />
+                    </div>
+                </div>
+                <div class="port-nav">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <ul class="port-nav-list">
+                                <li><a class="img-filter active" data-filter="*">All</a></li>
+                                <li><a class="img-filter" data-filter=".web">FreeCodeCamp</a></li>
+                                <li><a class="img-filter" data-filter=".CI">CodeIgniter</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row project-row" id="img-filter" data-aos="fade-up">
+                    <!-- strart project 1 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 project web">
+                        <div class="project-box project-tile">
+                            <div class="project-image">
+                                <img src="assets/img/tribute-page.png" alt="tribute image" />
+                            </div>
+
+                            <div class="overlay">
+                                <div class="overlay-inner">
+                                    <h4 class="project-au"><span class="code">&lt;</span> FreeCodeCamp <span class="code">&#47;&gt; </span></h4>
+                                    <h4 class="project-title">Tribute Page</h4>
+                                </div>
+                                <div class="image-zoom">
+                                    <a href="assets/img/tribute-page.png" class="zoom"><i class="fa fa-expand" aria-hidden="true"></i></a>
+                                </div>
+                                <div class="project-link">
+                                    <ul>
+                                        <li>
+                                            <a href="#" target="_blank" class="github link" data-bs-toggle="tooltip" data-bs-placement="left" title="GitHub"> <i class="fa fa-github"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://cdpn.io/NurcholisAr/debug/gOmLbae/yYAyLaPezzbr" target="_blank" class="codepen link" data-bs-toggle="tooltip" data-bs-placement="left" title="CodePen"
+                                                ><i class="fa fa-codepen"></i
+                                            ></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end project 1 -->
+
+                    <!-- strart project 2 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 project web">
+                        <div class="project-box project-tile">
+                            <div class="project-image">
+                                <img src="assets/img/survey.png" alt="project image" class="zoom" />
+                            </div>
+
+                            <div class="overlay">
+                                <div class="overlay-inner">
+                                    <h4 class="project-au"><span class="code">&lt;</span> FreeCodeCamp <span class="code">&#47;&gt; </span></h4>
+                                    <h4 class="project-title">Survey Form</h4>
+                                </div>
+                                <div class="image-zoom">
+                                    <a href="assets/img/survey.png" class="zoom"><i class="fa fa-expand" aria-hidden="true"></i></a>
+                                </div>
+                                <div class="project-link">
+                                    <ul>
+                                        <li>
+                                            <a href="#" target="_blank" class="github link" data-bs-toggle="tooltip" data-bs-placement="left" title="GitHub"> <i class="fa fa-github"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://codepen.io/NurcholisAr/full/oNZZyLe" target="_blank" class="codepen link" data-bs-toggle="tooltip" data-bs-placement="left" title="CodePen"><i class="fa fa-codepen"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end project 2-->
+
+                    <!-- strart project 3 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 project web">
+                        <div class="project-box project-tile">
+                            <div class="project-image">
+                                <img src="assets/img/landing-page.png" alt="project image" class="zoom" />
+                            </div>
+
+                            <div class="overlay">
+                                <div class="overlay-inner">
+                                    <h4 class="project-au"><span class="code">&lt;</span> FreeCodeCamp <span class="code">&#47;&gt; </span></h4>
+                                    <h4 class="project-title">Product Landing Page</h4>
+                                </div>
+                                <div class="image-zoom">
+                                    <a href="assets/img/landing-page.png" class="zoom"><i class="fa fa-expand" aria-hidden="true"></i></a>
+                                </div>
+                                <div class="project-link">
+                                    <ul>
+                                        <li>
+                                            <a href="https://github.com/NurcholisAR/FCC-Product-Landing-Page" target="_blank" class="github link" data-bs-toggle="tooltip" data-bs-placement="left" title="GitHub">
+                                                <i class="fa fa-github"></i
+                                            ></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://codepen.io/NurcholisAr/full/xxqdzjq" target="_blank" class="codepen link" data-bs-toggle="tooltip" data-bs-placement="left" title="CodePen"><i class="fa fa-codepen"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end project 3 -->
+
+                    <!-- strart project 4 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 project web">
+                        <div class="project-box project-tile">
+                            <div class="project-image">
+                                <img src="assets/img/documentasi.png" alt="project image" class="zoom" />
+                            </div>
+
+                            <div class="overlay">
+                                <div class="overlay-inner">
+                                    <h4 class="project-au"><span class="code">&lt;</span> FreeCodeCamp <span class="code">&#47;&gt; </span></h4>
+                                    <h4 class="project-title">Technical Documentation Page</h4>
+                                </div>
+                                <div class="image-zoom">
+                                    <a href="assets/img/documentasi.png" class="zoom"><i class="fa fa-expand" aria-hidden="true"></i></a>
+                                </div>
+                                <div class="project-link">
+                                    <ul>
+                                        <li>
+                                            <a href="https://github.com/NurcholisAR/FCC-Technical-Documentation" target="_blank" class="github link" data-bs-toggle="tooltip" data-bs-placement="left" title="GitHub">
+                                                <i class="fa fa-github"></i
+                                            ></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://codepen.io/NurcholisAr/full/MWpOGRo" target="_blank" class="codepen link" data-bs-toggle="tooltip" data-bs-placement="left" title="CodePen"><i class="fa fa-codepen"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end project 4 -->
+
+                    <!-- strart project 5 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 project web">
+                        <div class="project-box project-tile">
+                            <div class="project-image">
+                                <img src="assets/img/portfolio.png" alt="project image" class="zoom" />
+                            </div>
+
+                            <div class="overlay">
+                                <div class="overlay-inner">
+                                    <h4 class="project-au"><span class="code">&lt;</span> FreeCodeCamp <span class="code">&#47;&gt; </span></h4>
+                                    <h4 class="project-title">Personal Portfolio Webpage</h4>
+                                </div>
+                                <div class="image-zoom">
+                                    <a href="assets/img/portfolio.png" class="zoom"><i class="fa fa-expand" aria-hidden="true"></i></a>
+                                </div>
+                                <div class="project-link">
+                                    <ul>
+                                        <li>
+                                            <a href="#" target="_blank" class="github link" data-bs-toggle="tooltip" data-bs-placement="left" title="GitHub"> <i class="fa fa-github"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" target="_blank" class="codepen link" data-bs-toggle="tooltip" data-bs-placement="left" title="CodePen"><i class="fa fa-codepen"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end project 5 -->
+
+                    <!-- strart project 6 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 project CI">
+                        <div class="project-box project-tile">
+                            <div class="project-image">
+                                <img src="" alt="project image" class="zoom" />
+                            </div>
+                            <div class="overlay">
+                                <div class="overlay-inner">
+                                    <h4 class="project-au">FreeCodeCamp</h4>
+                                    <h4 class="project-title">Tribute Page</h4>
+                                </div>
+                                <div class="image-zoom">
+                                    <a href="#" class="zoom"><i class="fa fa-expand" aria-hidden="true"></i></a>
+                                </div>
+                                <div class="project-link">
+                                    <ul>
+                                        <li>
+                                            <a href="" target="_blank" class="github link" data-bs-toggle="tooltip" data-bs-placement="left" title="GitHub"> <i class="fa fa-github"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" target="_blank" class="codepen link" data-bs-toggle="tooltip" data-bs-placement="left" title="CodePen"><i class="fa fa-codepen"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end project 6 -->
+                </div>
+            </div>
+        </section>
+        <!-- Akhir Projects Section -->
+
+        <!-- Start Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <div class="row">
+                    <div class="d-flex">
+                        <hr class="flex-grow-1" />
+                        <h2 class="px-4 section-title">contact <span>ME</span></h2>
+                        <hr class="flex-grow-1" />
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-10">
+                        <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+                            <strong>Terimakasih!</strong> Pesan anda sudah kami terima.
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                        <div class="contact-content">
+                            <form class="row g-3" name="contact-me">
+                                <div class="col-md-6">
+                                    <label for="nama" class="form-label">Nama Lengkap</label>
+                                    <input type="text" class="form-control" id="nama" name="nama" required />
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="Email" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="Email" name="email" required />
+                                </div>
+                                <div class="col">
+                                    <label for="validationTextarea" class="form-label">Pesan</label>
+                                    <textarea class="form-control" id="validationTextarea" name="pesan" required></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary btn-kirim" type="submit"><i class="fa fa-paper-plane-o" aria-hidden="true"></i> Kirim</button>
+                                    <button class="btn btn-primary btn-loading d-none" type="button" disabled>
+                                        <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                                        Loading...
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Akhir Contact Section -->
+
+        <!--Footer Area Starts-->
+
+        <footer class="bg-dark text-center p-3">
+            <p class="text-white">Created with <i class="fa fa-heart text-danger"></i> by <a href="#" class="text-info fw-bold">Nurcholis Aulia Rachman</a></p>
+        </footer>
+
+        <!--Footer Area Ends-->
+        <!-- jquery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <!-- AOS -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!-- FCC -->
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+        <!-- magnific popup -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+        <!-- isotope js -->
+        <script src="assets/js/isotope.pkgd.min.js"></script>
+
+        <!-- js -->
+        <script src="assets/js/script.js"></script>
+
+        <!-- Submit a Form to Google Sheets -->
+        <script>
+            const scriptURL = "https://script.google.com/macros/s/AKfycbxugbn1cvI7Ww5-YlK1Fwx8x7qD8j1SIPUQ7KSPLC3WGtkkqAyyHPnTlu9-mJqXTw2v/exec";
+            const form = document.forms["contact-me"];
+            const btnKirim = document.querySelector(".btn-kirim");
+            const btnLoading = document.querySelector(".btn-loading");
+            const myAlert = document.querySelector(".my-alert");
+            form.addEventListener("submit", (e) => {
+                e.preventDefault();
+
+                // ketika tombol submit diklik
+                // tampilkan tombol loading, hilangkan tombol kirim
+                btnLoading.classList.toggle("d-none");
+                btnKirim.classList.toggle("d-none");
+                fetch(scriptURL, { method: "POST", body: new FormData(form) })
+                    .then((response) => {
+                        // tampilkan tombol kirim, hilangkan tombol loading
+                        btnLoading.classList.toggle("d-none");
+                        btnKirim.classList.toggle("d-none");
+                        // tampilkan alert
+                        myAlert.classList.toggle("d-none");
+                        form.reset();
+                        console.log("Success!", response);
+                    })
+                    .catch((error) => console.error("Error!", error.message));
+            });
+        </script>
+    </body>
+</html>
